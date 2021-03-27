@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" type="text/css" >
+    <link rel="stylesheet" href="./css/fa.css" type="text/css">
+    <title>Goobin</title>
+    <link rel="shortcut icon" href="./img/goobin-logo-64x64.png" />
+    
+
+</head>
+<body>
+
+    <header class="sticky-top">
+        <div class="d-inline">
+            <a href="#">
+                <img class="header-logo" src="./img/goobin-logo-64x64.png" alt="Goobin-logo"/>
+            </a>
+        </div>
+        <nav class="clearfix display-inline">
+            <div class="d-inline">
+                <ul>
+                    <li class="dropdown">
+                        <span class=" fw-bold" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-chevron-down"></i>محصولات
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </span>
+                        <ul class="dropdown-menu board-list" aria-labelledby="dropdownMenuButton">
+                            <li class="dropdown-item">
+                                <a href="#"><P class="text-center text-body">اتاق کار</p></a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#"><p class="text-center text-body">چند کاربره</p></a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#"><p class="text-center text-body">گفتگو</p></a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#"><P class="text-center text-body">تجزیه و تحلیل</P></a>
+                             </li>
+                        </ul>
+                    </li>
+                    <li class="m-r-33">
+                        <a href="#" class="fw-bold">
+                            درباره ما
+                        </a>
+                    </li>
+                    <li class="m-r-33">
+                        <a href="#" class="fw-bold">
+                            مشتری ها
+                        </a>
+                    </li>
+                    <li class="m-r-33">
+                        <a href="#" class="fw-bold">
+                            قیمت
+                         </a> 
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-black d-inline float-start p-t-9">
+                <a href="#" class="fw-bold">
+                    ورود به حساب کاربری
+                </a>
+                <button class="fw-bolder start-BTN header-button">
+                    شروع کن
+                </button>
+            </div>
+        </nav>
+        <span class=" float-start  display-none-768" style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <!--<img src="./img/WhatsApp Image 2021-03-18 at 4.57.31 PM (2).jpg" alt="Goobin-logo"/>-->
+                <ul class="w-100">
+                    <li class="dropdown m-r-33">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  محصولات
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><P class="text-center text-white">اتاق کار</p></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><p class="text-center text-white">چند کاربره</p></a>
+                                        </li>
+                                        <li >
+                                            <a href="#"><p class="text-center text-white">گفتگو</p></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><P class="text-center text-white">تجزیه و تحلیل</P></a>
+                                         </li>
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
+                    </li>    
+                    <li class="m-r-33">
+                        <a href="#" class="fw-bold">
+                            درباره ما
+                        </a>
+                    </li>
+                    <li class="m-r-33">
+                        <a href="#" class="fw-bold">
+                            مشتری ها
+                        </a>
+                    </li>
+                    <li class="m-r-33">
+                        <a href="#" class="fw-bold">
+                            قیمت
+                        </a> 
+                    </li>
+                </ul>
+                <hr class="mx-5"> 
+                <a href="#" class="fw-bold">
+                    ورود به حساب کاربری
+                </a>
+                <button class="fw-bolder my-4 overally-start-BTN header-button">
+                    شروع کن
+                </button>
+            </div>`
+        </div>
+    </header>
+
+    <section>
+        <div class="row ">
+            <div class="col-md-6 col-sm-12 col-12 main-container">
+                <h1>چشم انداز خود را تقویت کنید</h1>
+                <p class=" w-75 mb-4 fs-18">گوبین به شما امکان می دهد به طور همزمان در بیش از 30 سیستم عامل اجتماعی شرکت کنید</p>
+                <form action="" method="get" autocomplete="off">
+                    <input type="email" id="email" name="email"  placeholder=" " pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+                    <label for="email" class="floating-Emaillabel">ایمیل</label>
+                    <input type="password" id="pass" name="pass" placeholder=" " />
+                    <label for="pass" class="floating-Psslabel">رمز عبور</label>
+                    <div class="w-70 row m-w-100">
+                        <div class="col-md-5 col-12 px-0"> 
+                            <button class="btn text-white w-100 sign-up" id="submit" type="submit" value="Submit">ثبت نام رایگان</button>
+                        </div>  
+                    </div>     
+                </form>   
+                <p class="mt-2">قبلا ثبت نام کرده ام؟ <a href class="fw-bolder">  ورود</a></p>    
+            </div>
+            <div class="col-md-6 col-12 text-center">
+                <img src="./img/loola-social-promo-image-v2.c66f6a50.svg" alt="demo-pic"/>
+            </div>   
+        </div>
+    </section>
+    
+    <footer>
+        <div class="row">
+            <div class="col-lg-2 d-flex justify-content-center footer-media">
+                <a href="#"><i class="fab fa-google-plus"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter-square social-media"></i></a>   
+            </div>
+            <div class="col-lg-8 d-flex justify-content-around px-5 footer-media">
+                <a href="#">فرصت های شغلی</a>
+                <a href="#">وبلاگ</a>
+                <a href="#">پشتیبانی</a>
+                <a href="#">شرایط و حریم خصوصی</a>
+                <a href="#">توسعه دهندگان</a>
+                <a href="#">مدیا کیت</a>  
+            </div>
+            <div class="col-lg-2 identity text-center footer-media">
+                © 2021 Restream, Inc. All Rights Reserved                   
+            </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
